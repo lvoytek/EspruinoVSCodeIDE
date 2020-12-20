@@ -14,6 +14,23 @@
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "espruino-ide",
+					"title": "Espruino IDE",
+					"icon": "img/espruino.svg"
+				}
+			]
+		},
+		"views": {
+			"explorer": [
+				{
+					"id": "espruino-commands",
+					"name": "Espruino Commands"
+				}
+			]
+		},
 		"commands": [
 			{
 				"command": "espruino-ide.helloWorld",
