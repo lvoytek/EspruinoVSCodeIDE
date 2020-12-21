@@ -24,7 +24,7 @@
 			]
 		},
 		"views": {
-			"explorer": [
+			"espruino-ide": [
 				{
 					"id": "espruino-commands",
 					"name": "Espruino Commands"
